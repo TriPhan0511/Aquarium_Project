@@ -19,7 +19,89 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Hello, world!</h1>
+        <!-- Main navigation -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-custom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Aquarium Park</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample03"
+                    aria-controls="navbarsExample03"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdown03"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                >Marine Animals</a
+                            >
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="dropdown03"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="animal1.html"
+                                        >Animal 1</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="animal2.html"
+                                        >Animal 2</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="animal3.html"
+                                        >Animal 3</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kids Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form>
+                        <input
+                            class="form-control"
+                            type="text"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main sections -->
+        <div style="height: 300vh"></div>
 
         <!-- Bootstrap Bundle with Popper -->
         <script
