@@ -1,5 +1,11 @@
 :root {
-    --custom-color: rgb(252, 213, 199);
+    /* --custom-color: rgb(252, 213, 199); */
+    --custom-color: rgb(233, 126, 87);
+}
+
+/* General: cho trang detail */
+img {
+    width: 100%;
 }
 
 /* Utilities */
@@ -8,9 +14,9 @@
 }
 
 /* Main navigation */
-nav.navbar {
+/* nav.navbar {
     background-color: rgb(233, 126, 87);
-}
+} */
 
 /* Home-cards */
 .home-cards {
@@ -61,4 +67,40 @@ nav.navbar {
 
 .footer .social a {
     margin: 0 10px;
+}
+/* -------------------------------------------------------------------- */
+
+/* Detail Page */
+/* Floated Images */
+.fig-picture-float-left,
+.fig-picture-float-right {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.fig-picture-float-left {
+    float: left;
+    margin-right: 30px;
+}
+
+.fig-picture-float-right {
+    float: right;
+    margin-left: 30px;
+}
+
+/* Author */
+.author > h2:first-child {
+    text-align: center;
+}
+
+.author img {
+    border-radius: 70%;
+    margin: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .myForm {
+        display: none;
+    }
 }

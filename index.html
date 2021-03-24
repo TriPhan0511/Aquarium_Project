@@ -22,13 +22,16 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/style.css" />
 
+        <!-- Our Javascript -->
+        <!-- <script src="js/script.js"></script> -->
+
         <title>Aquarium Park | Home</title>
     </head>
     <body>
         <!-- Main navigation -->
         <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-custom fixed-top"> -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-custom">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <div class="container bg-custom">
                 <a class="navbar-brand" href="index.html">Aquarium Park</a>
                 <button
                     class="navbar-toggler"
@@ -62,15 +65,17 @@
                                 id="dropdown03"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
-                                >Marine Animals</a
+                                >Animals</a
                             >
                             <ul
-                                class="dropdown-menu"
+                                class="dropdown-menu show_hover"
                                 aria-labelledby="dropdown03"
                             >
                                 <li>
-                                    <a class="dropdown-item" href="animal1.html"
-                                        >Animal 1</a
+                                    <a
+                                        class="dropdown-item"
+                                        href="articles/animals/betta.html"
+                                        >Betta fish</a
                                     >
                                 </li>
                                 <li>
@@ -86,16 +91,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kids Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Booking</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Contact Us</a>
                         </li>
                     </ul>
-                    <form>
+                    <form class="myForm">
                         <input
                             class="form-control"
                             type="text"
@@ -108,7 +107,7 @@
         </nav>
 
         <!-- Home Cards: DIY (not Bootstrap 5) -->
-        <section class="container home-cards mt-3">
+        <!-- <section class="container home-cards mt-3">
             <div>
                 <img
                     src="images/babaulti-shrimp-w279.jpg"
@@ -162,7 +161,7 @@
                 </p>
                 <a href="#">Booking <i class="fas fa-chevron-right"></i></a>
             </div>
-        </section>
+        </section> -->
 
         <!-- Pricing Table -->
         <div class="container">
@@ -247,6 +246,18 @@
             </div>
         </div>
 
+        <!-- Tooltip -->
+        <button
+            id="tooltip"
+            type="button"
+            class="btn btn-secondary"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+        >
+            Tooltip on top
+        </button>
+
         <!-- Footer -->
         <footer class="footer bg-dark py-5">
             <div class="container d-grid">
@@ -270,28 +281,6 @@
                 </div>
             </div>
         </footer>
-        <!-- ------------------------------------------------------------------- -->
-        <!-- <footer class="footer bg-dark py-5">
-            <div class="container grid grid-3">
-                <div>
-                    <h1>Loruki</h1>
-                    <p>Copyright &copy; 2021</p>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="features.html">Features</a></li>
-                        <li><a href="docs.html">Documentation</a></li>
-                    </ul>
-                </nav>
-                <div class="social">
-                    <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                    <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-                </div>
-            </div>
-        </footer> -->
 
         <!-- Bootstrap Bundle with Popper -->
         <script
@@ -299,5 +288,8 @@
             integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
             crossorigin="anonymous"
         ></script>
+
+        <!-- Our javascript -->
+        <script src="js/script.js"></script>
     </body>
 </html>
