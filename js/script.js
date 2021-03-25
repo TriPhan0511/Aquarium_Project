@@ -33,7 +33,6 @@ console.log(activeLinks);
 let firstActiveLink = activeLinks[0];
 console.log(firstActiveLink);
 
-// firstActiveLink.addEventListener('hover', greeting);
 firstActiveLink.onmouseover = function () {
     console.log('Hello, world');
 };

@@ -18,6 +18,17 @@ img {
     background-color: rgb(233, 126, 87);
 } */
 
+/* Carousel */
+#carouselExampleFade {
+    max-width: 800px;
+    margin: auto;
+    height: 450px;
+}
+
+#carouselExampleFade .carousel-item > img {
+    height: 450px;
+}
+
 /* Home-cards */
 .home-cards {
     display: grid;
