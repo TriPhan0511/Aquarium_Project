@@ -3,31 +3,73 @@
     --custom-color: rgb(233, 126, 87);
 }
 
-/* General: cho trang detail */
-img {
+/* GENERAL: cho trang detail */
+/* img {
     width: 100%;
-}
+} */
 
-/* Utilities */
+/* UTILITIES */
 .bg-custom {
     background-color: var(--custom-color);
 }
 
-/* Main navigation */
-/* nav.navbar {
-    background-color: rgb(233, 126, 87);
-} */
+/* CUSTOMIZE THE CAROUSEL 
+--------------------------------------------------*/
 
-/* Carousel */
-#carouselExampleFade {
-    max-width: 800px;
-    margin: auto;
-    height: 450px;
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
 }
 
-#carouselExampleFade .carousel-item > img {
-    height: 450px;
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
 }
+
+/* Declare heights beacause of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+/* MARKETING CONTENT 
+--------------------------------------------------*/
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+
+/* RESPONSIVE CSS 
+--------------------------------------------------*/
+@media (min-width: 40rem) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+}
+
+/* ================================================================= */
 
 /* Home-cards */
 .home-cards {
