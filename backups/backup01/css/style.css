@@ -1,4 +1,5 @@
 :root {
+    /* --custom-color: rgb(252, 213, 199); */
     --custom-color: rgb(233, 126, 87);
 }
 
@@ -7,29 +8,27 @@
     width: 100%;
 } */
 
-/* General */
-h2,
-h3 {
-    font-weight: 400;
-}
-
-/* Utilities */
+/* UTILITIES */
 .bg-custom {
     background-color: var(--custom-color);
 }
 
-/* Carousel */
+/* CUSTOMIZE THE CAROUSEL 
+--------------------------------------------------*/
+
+/* Carousel base class */
 .carousel {
     margin-bottom: 4rem;
 }
 
+/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
 }
 
+/* Declare heights beacause of positioning of img element */
 .carousel-item {
-    /* Declare heights beacause of positioning of img element */
     height: 32rem;
 }
 
@@ -41,59 +40,25 @@ h3 {
     height: 32rem;
 }
 
-/* Marketing */
-.marketing .col-md-3,
-.marketing .col-sm-4 {
+/* MARKETING CONTENT 
+--------------------------------------------------*/
+
+/* Center align the text within the three columns below the carousel */
+/* .marketing .col-lg-4 { */
+.marketing .col-md-4 {
     margin-bottom: 1.5rem;
-    text-align: center; /* Center align the text within the three columns below the carousel */
+    text-align: center;
 }
 
-/* .marketing h2,
-.marketing h3 {
+.marketing h2 {
     font-weight: 400;
-} */
+}
 
+/* rtl:begin:ignore */
+/* .marketing .col-lg-4 p { */
 .marketing .col-md-4 p {
     margin-right: 0.75rem;
     margin-left: 0.75rem;
-}
-
-.marketing a {
-    text-decoration: none;
-    color: #212529;
-    padding-bottom: 3px;
-}
-
-.marketing > .marketing-title a:hover {
-    border-bottom: 1px solid #212529;
-}
-
-.marketing .btn-orange {
-    background-color: var(--bs-orange);
-    border-color: var(--bs-orange);
-}
-
-.marketing a.btn-orange {
-    color: #fff;
-}
-
-.marketing a.btn-orange:hover {
-    transform: scale(1.1);
-}
-
-/* Showcase */
-/* .showcase .showcase-heading {
-    font-weight: 400;
-} */
-
-/* Child Events */
-.marketing.child-events .btn-pink {
-    background-color: var(--bs-pink);
-    border-color: var(--bs-pink);
-}
-
-.marketing.child-events .btn-pink {
-    color: #fff;
 }
 
 /* RESPONSIVE CSS 
@@ -116,6 +81,35 @@ h3 {
 }
 
 /* ================================================================= */
+
+/* Home-cards */
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* margin-bottom: 40px; */
+}
+
+.home-cards img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards h3 {
+    margin-bottom: 5px;
+}
+
+.home-cards a {
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067b8;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home-cards a:hover i {
+    margin-left: 10px;
+}
 
 /* Footer */
 .footer > .d-grid {
