@@ -63,8 +63,17 @@
     padding-bottom: 3px;
 }
 
+.marketing > .row h3 {
+    margin-top: 0.5rem;
+}
+
 .marketing > .marketing-title a:hover {
     border-bottom: 1px solid #212529;
+}
+
+.marketing a.btn-orange,
+.marketing .btn-pink {
+    color: #fff;
 }
 
 .marketing .btn-orange {
@@ -72,24 +81,13 @@
     border-color: var(--bs-orange);
 }
 
-.marketing a.btn-orange {
-    color: #fff;
-}
-
-.marketing a.btn-orange:hover {
-    transform: scale(1.1);
-}
-
-/* Showcase */
-
-/* Child Events */
-.marketing.child-events .btn-pink {
+.marketing .btn-pink {
     background-color: var(--bs-pink);
     border-color: var(--bs-pink);
 }
 
-.marketing.child-events .btn-pink {
-    color: #fff;
+.marketing a.btn:hover {
+    transform: scale(1.1);
 }
 
 /* RESPONSIVE CSS 
