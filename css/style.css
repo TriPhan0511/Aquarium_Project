@@ -117,6 +117,18 @@
     border-bottom: 1px solid #fff;
 }
 
+.footer h4,
+.footer h5 {
+    font-weight: 400;
+}
+
+.footer .fas {
+    margin-right: 3px;
+}
+
+.footer ul {
+    padding-left: 0;
+}
 /* RESPONSIVE CSS 
 --------------------------------------------------*/
 
@@ -135,31 +147,6 @@
         margin-top: 5rem;
     }
 }
-
-/* ================================================================= */
-
-/* Footer */
-/* .footer > .d-grid {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.footer .container,
-.footer a {
-    color: #fff;
-}
-
-.footer li {
-    list-style-type: none;
-}
-
-.footer a {
-    text-decoration: none;
-}
-
-.footer .social a {
-    margin: 0 10px;
-} */
-/* -------------------------------------------------------------------- */
 
 /* Detail Page */
 /* Floated Images */
