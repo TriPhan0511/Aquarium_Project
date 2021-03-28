@@ -7,10 +7,17 @@
     width: 100%;
 } */
 
-/* General */
-h2,
-h3 {
+/* Common */
+.marketing h2,
+.marketing h3,
+.showcase .showcase-heading {
     font-weight: 400;
+}
+
+.carousel,
+.marketing,
+.showcase {
+    margin-bottom: 2rem;
 }
 
 /* Utilities */
@@ -19,9 +26,6 @@ h3 {
 }
 
 /* Carousel */
-.carousel {
-    margin-bottom: 4rem;
-}
 
 .carousel-caption {
     bottom: 3rem;
@@ -47,11 +51,6 @@ h3 {
     margin-bottom: 1.5rem;
     text-align: center; /* Center align the text within the three columns below the carousel */
 }
-
-/* .marketing h2,
-.marketing h3 {
-    font-weight: 400;
-} */
 
 .marketing .col-md-4 p {
     margin-right: 0.75rem;
@@ -82,9 +81,6 @@ h3 {
 }
 
 /* Showcase */
-/* .showcase .showcase-heading {
-    font-weight: 400;
-} */
 
 /* Child Events */
 .marketing.child-events .btn-pink {
@@ -111,7 +107,7 @@ h3 {
 @media (min-width: 768px) {
     /* Showcase */
     .showcase .showcase-heading {
-        margin-top: 7rem;
+        margin-top: 5rem;
     }
 }
 
