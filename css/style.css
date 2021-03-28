@@ -91,12 +91,31 @@
     transform: scale(1.1);
 }
 
-/* Schedule */
-/* @media (max-width: 575px) {
-    .schedule > .row > div:last-child {
-        display: none;
-    }
-} */
+/* footer */
+.footer.bg-dark,
+.footer.bg-dark a {
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer .social a {
+    margin-left: 0.5rem;
+}
+
+.footer nav li {
+    margin-bottom: 5px;
+}
+
+.footer nav a:hover {
+    border-bottom: 1px solid #fff;
+}
 
 /* RESPONSIVE CSS 
 --------------------------------------------------*/
@@ -120,7 +139,7 @@
 /* ================================================================= */
 
 /* Footer */
-.footer > .d-grid {
+/* .footer > .d-grid {
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -139,7 +158,7 @@
 
 .footer .social a {
     margin: 0 10px;
-}
+} */
 /* -------------------------------------------------------------------- */
 
 /* Detail Page */
