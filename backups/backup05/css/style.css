@@ -26,12 +26,6 @@
     background-color: var(--custom-color);
 }
 
-a.transparent-link {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-}
-
 /* Carousel */
 
 .carousel-caption {
