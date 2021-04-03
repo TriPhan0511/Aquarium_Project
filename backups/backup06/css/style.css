@@ -34,11 +34,8 @@ a.transparent-link {
 
 /* Carousel */
 
-#firstCarousel {
-    margin-top: 3rem;
-}
-
 .carousel-caption {
+    bottom: 3rem;
     z-index: 10;
 }
 
