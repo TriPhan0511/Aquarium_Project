@@ -143,6 +143,8 @@ a.transparent-link {
 /* RESPONSIVE CSS 
 --------------------------------------------------*/
 
+/* HOME page */
+
 @media (min-width: 40rem) {
     /* Carousel */
     .carousel-caption p {
@@ -156,6 +158,19 @@ a.transparent-link {
     /* Showcase */
     .showcase .showcase-heading {
         margin-top: 5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Child Events */
+    .marketing.child-events .col-sm-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .marketing.child-events .col-sm-4 > h3 {
+        order: -1;
+        margin-bottom: 1rem;
     }
 }
 
