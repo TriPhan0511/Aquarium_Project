@@ -10,13 +10,13 @@
 /* Common */
 .marketing h2,
 .marketing h3,
-.showcase .showcase-heading {
+.places .places-heading {
     font-weight: 400;
 }
 
 .carousel,
 .marketing,
-.showcase,
+.places,
 .pricing {
     margin-bottom: 2rem;
 }
@@ -100,7 +100,12 @@ a.transparent-link {
     transform: scale(1.1);
 }
 
-/* footer */
+/* Places */
+.places {
+    margin-bottom: 3.5rem;
+}
+
+/* Footer */
 .footer.bg-dark,
 .footer.bg-dark a {
     color: #fff;
@@ -155,8 +160,8 @@ a.transparent-link {
 }
 
 @media (min-width: 768px) {
-    /* Showcase */
-    .showcase .showcase-heading {
+    /* places */
+    .places .places-heading {
         margin-top: 5rem;
     }
 }
