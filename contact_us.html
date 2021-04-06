@@ -1,320 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
 
-        <!-- Bootstrap CSS -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-            crossorigin="anonymous"
-        />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
 
-        <!-- Font awesome -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
 
-        <!-- Main CSS -->
-        <link rel="stylesheet" href="css/style.css" />
+    <!-- Main CSS -->
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+    />
 
-        <!-- Contact Us Page CSS -->
-        <link rel="stylesheet" href="css/contact_us_page.css" />
+    <!-- Contact Us Page CSS -->
+    <link
+      rel="stylesheet"
+      href="css/contact_us_page.css"
+    />
 
-        <title>Aquarium Park | Contact Us</title>
-    </head>
-    <body>
-        <!-- Header -->
-        <header>
-            <nav
-                class="navbar navbar-expand-md navbar-dark fixed-top bg-custom"
+    <title>
+      Aquarium Park | Contact Us
+    </title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav
+        class="navbar navbar-expand-md navbar-dark fixed-top bg-custom"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="index.html"
+            >Aquarium Park</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="navbar-toggler-icon"
+            ></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarCollapse"
+          >
+            <ul
+              class="navbar-nav me-auto mb-2 mb-md-0"
             >
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">Aquarium Park</a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse"
-                        aria-controls="navbarCollapse"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Gallery</a
+                >
+              </li>
+              <li
+                class="nav-item dropdown"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdown03"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Animals</a
+                >
+                <ul
+                  class="dropdown-menu show_hover"
+                  aria-labelledby="dropdown03"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="animal_seastar.html"
+                      >Seastar</a
                     >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    aria-current="page"
-                                    href="index.html"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="dropdown03"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                    >Animals</a
-                                >
-                                <ul
-                                    class="dropdown-menu show_hover"
-                                    aria-labelledby="dropdown03"
-                                >
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="animal_seastar.html"
-                                            >Seastar</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="animal_bright_pink_fish.html"
-                                            >Bright Pink Fish</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="animal_common_bottlenose_dolphin.html"
-                                            >Common Bottlenose Dolphin</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="animal_seahorse.html"
-                                            >Seahorse</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="animal_blue_and_yellow_fish.html"
-                                            >Blue and Yellow Fish</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="animal_pink_ling.html"
-                                            >Pink Ling</a
-                                        >
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active"
-                                    href="contact_us.html"
-                                    >Contact Us</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a href="sign_up.html" class="nav-link"
-                                    >Sign Up</a
-                                >
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input
-                                class="form-control me-2"
-                                type="search"
-                                placeholder="Search"
-                                aria-label="Search"
-                            />
-                            <button
-                                class="btn btn-outline-warning"
-                                type="submit"
-                            >
-                                Search
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </header>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="animal_bright_pink_fish.html"
+                      >Bright Pink
+                      Fish</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="animal_common_bottlenose_dolphin.html"
+                      >Common Bottlenose
+                      Dolphin</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="animal_seahorse.html"
+                      >Seahorse</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="animal_blue_and_yellow_fish.html"
+                      >Blue and Yellow
+                      Fish</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="animal_pink_ling.html"
+                      >Pink Ling</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="contact_us.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="sign_up.html"
+                  class="nav-link"
+                  >Sign Up</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="checkout_form.html"
+                  class="nav-link"
+                  >Your cart</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-warning"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <!-- Leave-Message -->
-        <div class="container leave-message">
-            <div class="row gx-5">
-                <div class="col-md-6">
-                    <h3>Drop us a line</h3>
-                    <form>
-                        <div class="mb-3">
-                            <label for="fullname" class="form-label"
-                                >Full name</label
-                            >
-                            <input
-                                type="text"
-                                name=""
-                                id="fullname"
-                                class="form-control"
-                                placeholder="What's your name?"
-                                required
-                            />
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="emailaddress" class="form-label"
-                                >Email address</label
-                            >
-                            <input
-                                type="email"
-                                name=""
-                                id="emailaddress"
-                                class="form-control"
-                                placeholder="you@example.com"
-                                required
-                            />
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="message" class="form-label"
-                                >Message</label
-                            >
-                            <textarea
-                                id="message"
-                                rows="5"
-                                class="form-control"
-                                required
-                            ></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary w-100">
-                            Submit
-                        </button>
-                    </form>
-                </div>
-
-                <div class="col-md-6 d-none d-md-block">
-                    <img
-                        src="images/Contact_Us_Img.jpg"
-                        alt="Contact Us"
-                        class="w-100"
-                    />
-                </div>
+    <!-- Leave-Message -->
+    <div
+      class="container leave-message"
+    >
+      <div class="row gx-5">
+        <div class="col-md-6">
+          <h3>Drop us a line</h3>
+          <form>
+            <div class="mb-3">
+              <label
+                for="fullname"
+                class="form-label"
+                >Full name</label
+              >
+              <input
+                type="text"
+                name=""
+                id="fullname"
+                class="form-control"
+                placeholder="What's your name?"
+                required
+              />
             </div>
+
+            <div class="mb-3">
+              <label
+                for="emailaddress"
+                class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                name=""
+                id="emailaddress"
+                class="form-control"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label
+                for="message"
+                class="form-label"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                rows="5"
+                class="form-control"
+                required
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-primary w-100"
+            >
+              Submit
+            </button>
+          </form>
         </div>
 
-        <!-- Location -->
-        <div class="location">
-            <h3 class="text-center">Aquarium Park Location</h3>
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe
-                        width="100%"
-                        height="500"
-                        id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=1483%20Alaskan%20Way,%20Seattle,%20WA%2098101,%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0"
-                        scrolling="no"
-                        marginheight="0"
-                        marginwidth="0"
-                    ></iframe
-                    ><a href="https://123movies-to.org"></a><br /><style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 500px;
-                            width: 100%;
-                        }</style
-                    ><a href="https://www.embedgooglemap.net"
-                        >how to embed google maps in html</a
-                    ><style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 500px;
-                            width: 100%;
-                        }
-                    </style>
-                </div>
-            </div>
+        <div
+          class="col-md-6 d-none d-md-block"
+        >
+          <img
+            src="images/Contact_Us_Img.jpg"
+            alt="Contact Us"
+            class="w-100"
+          />
         </div>
+      </div>
+    </div>
 
-        <!-- Footer -->
-        <footer class="footer bg-dark py-5">
-            <div class="container">
-                <div class="row text-center text-sm-start">
-                    <div class="col-md-3">
-                        <h4>Aquarium Park</h4>
-                        <p>Copyright &copy; Batch 164 Aptech 2021</p>
-                    </div>
-                    <div class="contact col-md-4">
-                        <h5>Contact Us</h5>
-                        <p><i class="fas fa-mobile-alt"></i> +1 206-386-4300</p>
-                        <p>
-                            <i class="fas fa-paper-plane"></i>
-                            <a href="mailto:phanphutri@gmail.com"
-                                >aquariumpark@gmail.com</a
-                            >
-                        </p>
-                        <p>
-                            <i class="fas fa-map-marker-alt"></i> 1483 Alaskan
-                            Way, Seatle, WA 98101, USA
-                        </p>
-                    </div>
-                    <nav class="col-md-2">
-                        <h5>Navigate To</h5>
-                        <ul>
-                            <li>
-                                <a href="index.html"
-                                    ><i class="fas fa-home"></i>Home</a
-                                >
-                            </li>
-                            <li>
-                                <a href="animals.html"
-                                    ><i class="fas fa-fish"></i>Animals</a
-                                >
-                            </li>
-                            <li>
-                                <a href="events.html"
-                                    ><i class="fas fa-calendar-alt"></i>Events
-                                    for Kids</a
-                                >
-                            </li>
-                            <li>
-                                <a href="booking.html"
-                                    ><i class="fas fa-ticket-alt"></i>Booking</a
-                                >
-                            </li>
-                            <li>
-                                <a href="feedback.html"
-                                    ><i class="fas fa-comment"></i>Feedback</a
-                                >
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="social col-md-3">
-                        <h5>Follow us:</h5>
-                        <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    <!-- Location -->
+    <div class="location">
+      <h3 class="text-center">
+        Aquarium Park Location
+      </h3>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="100%"
+            height="500"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=1483%20Alaskan%20Way,%20Seattle,%20WA%2098101,%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          ><a
+            href="https://123movies-to.org"
+          ></a
+          ><br /><style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 500px;
+              width: 100%;
+            }</style
+          ><a
+            href="https://www.embedgooglemap.net"
+            >how to embed google maps in
+            html</a
+          ><style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 100%;
+            }
+          </style>
+        </div>
+      </div>
+    </div>
 
-        <!-- Bootstrap Bundle with Popper -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+      <div class="container">
+        <div
+          class="row text-center text-sm-start"
+        >
+          <div class="col-md-3">
+            <h4>Aquarium Park</h4>
+            <p>
+              Copyright &copy; Batch 164
+              Aptech 2021
+            </p>
+          </div>
+          <div class="contact col-md-4">
+            <h5>Contact Us</h5>
+            <p>
+              <i
+                class="fas fa-mobile-alt"
+              ></i>
+              +1 206-386-4300
+            </p>
+            <p>
+              <i
+                class="fas fa-paper-plane"
+              ></i>
+              <a
+                href="mailto:phanphutri@gmail.com"
+                >aquariumpark@gmail.com</a
+              >
+            </p>
+            <p>
+              <i
+                class="fas fa-map-marker-alt"
+              ></i>
+              1483 Alaskan Way, Seatle,
+              WA 98101, USA
+            </p>
+          </div>
+          <nav class="col-md-2">
+            <h5>Navigate To</h5>
+            <ul>
+              <li>
+                <a href="index.html"
+                  ><i
+                    class="fas fa-home"
+                  ></i
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="animals.html"
+                  ><i
+                    class="fas fa-fish"
+                  ></i
+                  >Animals</a
+                >
+              </li>
+              <li>
+                <a href="events.html"
+                  ><i
+                    class="fas fa-calendar-alt"
+                  ></i
+                  >Events for Kids</a
+                >
+              </li>
+              <li>
+                <a href="booking.html"
+                  ><i
+                    class="fas fa-ticket-alt"
+                  ></i
+                  >Booking</a
+                >
+              </li>
+              <li>
+                <a href="feedback.html"
+                  ><i
+                    class="fas fa-comment"
+                  ></i
+                  >Feedback</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="social col-md-3">
+            <h5>Follow us:</h5>
+            <a href="#"
+              ><i
+                class="fab fa-github fa-2x"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fab fa-facebook fa-2x"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fab fa-instagram fa-2x"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fab fa-linkedin fa-2x"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
