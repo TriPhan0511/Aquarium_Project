@@ -26,9 +26,14 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/detail_page.css" />
+    <style>
+      .login a {
+        text-decoration: none;
+        color: inherit;
+      }
+    </style>
 
-    <title>Aquarium Park | Bright Pink Fish</title>
+    <title>Aquarium Park | Login</title>
   </head>
   <body>
     <!-- Header -->
@@ -71,7 +76,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle active"
+                  class="nav-link dropdown-toggle"
                   href="#"
                   id="dropdown03"
                   data-bs-toggle="dropdown"
@@ -133,7 +138,7 @@
               </li>
 
               <li class="nav-item">
-                <a href="login.html" class="nav-link"
+                <a href="login.html" class="nav-link active"
                   >Login</a
                 >
               </li>
@@ -162,88 +167,73 @@
       </nav>
     </header>
 
-    <!-- Article Content -->
-    <section class="article-content container">
-      <div class="row">
-        <div class="col-md-8">
-          <h2>Bright Pink Fish</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Reiciendis in quos architecto
-            qui, accusantium quod velit. Enim, blanditiis!
-            Dolor provident fuga tempore delectus unde ipsam
-            excepturi, laudantium corporis non, aliquid
-            aperiam, tempora libero in repellat aliquam
-            ullam quod iusto cum! Numquam quaerat voluptatem
-            voluptates beatae enim ipsam tempore, quos nam.
-          </p>
-          <div class="figure-wrapper">
-            <figure class="figure">
-              <img
-                src="images/Img_Animals/bright_pink_fish.jpg"
-                alt="Seastar"
-                class="figure-img img-fluid rounded"
-              />
-              <figcaption
-                class="figure-caption text-center"
-              >
-                Two beautiful seastars
-              </figcaption>
-            </figure>
-          </div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Delectus assumenda quae id
-            facilis. Quis itaque, amet unde, at omnis
-            voluptates culpa nisi, laborum maxime dolore
-            pariatur sequi corrupti dicta beatae.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Animi, distinctio et? Quis
-            aspernatur reprehenderit soluta officia.
-            Sapiente voluptatum enim debitis et corrupti
-            explicabo placeat aperiam, cum praesentium
-            atque, recusandae quaerat perspiciatis
-            reiciendis odio optio? Sequi commodi molestias
-            maiores, recusandae earum optio ad autem odit
-            saepe nisi, possimus fugit expedita omnis ut
-            illum magnam dignissimos, debitis eum placeat
-            in! At quidem eos consectetur odio saepe
-            asperiores possimus dolor explicabo dignissimos
-            optio ullam aspernatur impedit consequatur, qui
-            quas ab cupiditate ut est mollitia? Culpa
-            reiciendis ullam suscipit, quas quaerat expedita
-            blanditiis facilis dolorem mollitia officia
-            velit pariatur aut nemo magnam, optio
-            perferendis.
-          </p>
-
-          <div class="youtube-video-container mb-3">
-            <iframe
-              width="727"
-              height="409"
-              src="https://www.youtube.com/embed/RmHnKfTLgNw"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Numquam eaque, quam inventore
-            ipsa asperiores, earum, voluptatum sapiente
-            reprehenderit maiores reiciendis voluptates eius
-            rerum culpa officiis doloribus quisquam pariatur
-            nisi dolore.
+    <!-- Login -->
+    <div
+      class="container login col-xl-10 col-xxl-8 px-4 py-5"
+    >
+      <div class="row align-items-center g-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 mb-3">
+            Welcome to Aquarium Park!
+          </h1>
+          <p class="col-lg-10 fs-4">
+            Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Veniam inventore debitis velit
+            rerum. Eaque deserunt magni modi dicta excepturi
+            quam quo debitis itaque? Commodi recusandae vero
+            ut porro libero reiciendis.
           </p>
         </div>
-
-        <div class="col-md-4"></div>
+        <div class="col-10 mx-auto col-lg-5">
+          <form class="p-5 border rounded-3 bg-light">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="emailAddress"
+                placeholder="name@example.com"
+                required
+              />
+              <label for="emailAddress"
+                >Email address</label
+              >
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Password"
+                required
+              />
+              <label for="password">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input
+                  type="checkbox"
+                  value="remember-me"
+                />
+                Remember me
+              </label>
+            </div>
+            <button
+              class="w-100 btn btn-lg btn-primary"
+              type="submit"
+            >
+              Login
+            </button>
+            <hr class="my-4" />
+            <p class="text-center">
+              <small class="text-muted"
+                ><a href="#">Forgot password?</a> |
+                <a href="register.html">Register</a></small
+              >
+            </p>
+          </form>
+        </div>
       </div>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer bg-dark py-5">
